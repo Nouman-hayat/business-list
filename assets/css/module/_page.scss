@@ -1,0 +1,203 @@
+    .container {
+        padding: 0;
+        font-family: "Roboto", sans-serif;
+        max-width: 1200px;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .sect-space {
+        padding: 10px 0;
+    }
+    
+    .lead-small-text {
+        font-size: 80%;
+        text-align: center;
+        color: $green;
+        font-weight: 700;
+    }
+    
+    .lead-large-text {
+        font-size: 250%;
+        text-align: center;
+        color: $black;
+        font-weight: 900;
+        margin-bottom: 50px;
+    }
+    /*=============================================
+    =                   company detail                   =
+    =============================================*/
+    
+    .main-wrapper {
+        .company-detail-wrapper {
+            .rating-star-wrapper {
+                .row {
+                    align-items: center;
+                }
+                .bi-star-fill {
+                    color: $orange;
+                    font-size: 20px;
+                }
+                span {
+                    padding: 5px 10px;
+                    background-color: $green;
+                    color: white;
+                    border-radius: 5px;
+                    margin: 0 0 0 10px;
+                }
+            }
+            a {
+                text-decoration: none;
+                font-size: 13px;
+                margin-left: 10px;
+            }
+        }
+        .col-md-6 {
+            .btn {
+                color: $black;
+                border: 1px solid $black;
+                background-color: white;
+                border-radius: 25px;
+            }
+        }
+        .contact-content-wrapper {
+            padding: 20px 0;
+            h4 {
+                margin-bottom: 15px;
+            }
+            .contact-item {
+                p {
+                    margin: 0;
+                    margin-bottom: 5px;
+                    font-size: 15px;
+                    color: $black;
+                }
+                h5 {
+                    font-size: 18px;
+                    width: 500px;
+                    margin-bottom: 15px;
+                }
+                a {
+                    text-decoration: none;
+                }
+                .social-link-wrapper {
+                    a {
+                        color: unset;
+                    }
+                    i {
+                        font-size: 35px;
+                        margin-right: 5px;
+                    }
+                }
+                .opening-hours {
+                    .opening-item {
+                        margin-bottom: 10px;
+                        span {
+                            margin-right: 100px;
+                        }
+                    }
+                }
+            }
+        }
+        .map-wrapper {
+            h4 {
+                margin: 15px 0;
+            }
+            p {
+                font-size: 15px;
+                color: $black;
+            }
+        }
+        .photo-wrapper {
+            .col-6 {
+                padding: 15px 15px;
+            }
+        }
+        .camra-icon {
+            a {
+                text-align: right;
+                text-decoration: none;
+                font-size: 12px;
+                display: block;
+                i {
+                    font-size: 20px;
+                }
+            }
+        }
+        .reviews-wrapper {
+            .rating-star-wrapper {
+                a {
+                    text-decoration: none;
+                }
+                .bi-star-fill {
+                    color: $orange;
+                    font-size: 20px;
+                }
+            }
+            .review-btn {
+                margin-top: 20px;
+                span {
+                    width: 80px;
+                    padding: 8px 25px;
+                    background-color: $green;
+                    color: white;
+                    border-radius: 5px;
+                    margin: 0 30PX 0 0px;
+                    font-size: 18PX;
+                }
+                .btn-lg {
+                    background-color: $black;
+                    padding: 10px 45px;
+                    color: WHITE;
+                    font-size: 12PX;
+                }
+            }
+        }
+        .review-item {
+            padding: 20px;
+            border: rgb(194, 194, 194);
+            margin-top: 20px;
+            border-radius: 10px;
+            border: 1px solid rgb(167, 167, 167);
+            .user-review {
+                display: flex;
+                align-items: center;
+                .user-icon {
+                    i {
+                        font-size: 40px;
+                    }
+                }
+                .review-detail {
+                    padding: 0 20px;
+                    h5 {
+                        font-size: 20px;
+                        margin-bottom: 2px;
+                    }
+                }
+            }
+            .btn {
+                color: $black;
+                border: 1px solid $black;
+                padding: 5px 20px;
+                margin-left: 40px;
+                border-radius: 25px;
+            }
+            .rating-star-wrapper {
+                .bi-star-fill {
+                    color: $orange;
+                    font-size: 20px;
+                }
+                span {
+                    padding: 5px 10px;
+                    background-color: $green;
+                    color: white;
+                    border-radius: 5px;
+                    margin: 0 0 0 10px;
+                }
+            }
+        }
+    }
+    /*============  End of company detail  =============*/
